@@ -1,0 +1,11 @@
+export("adjmatrix", "gextrema", "gfdecomp", "gftplot", "ginterpolating", "gplot", "gsignal", "gsmoothing", "sgemd")
+# Import all packages listed as Imports or Depends
+import(
+  igraph,
+  Matrix,
+  EbayesThresh,
+  ggplot2
+)
+importFrom("grDevices", "palette")
+importFrom("graphics", "abline", "locator", "mtext", "points", "segments")
+importFrom("stats", "dist", "quantile")
